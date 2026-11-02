@@ -12,5 +12,4 @@ In the conjugation tables the verb endings are marked in red, in both scripts.
 
 ![Verb conjugation in print and handwriting, Figma](../images/verb-conjugation.png)
 
-The other two dialects are said to have scripts of their own, but none of them is drawn
-in the Figma file.
+[[Zabzy 2]] and [[Zabzy 3]] have scripts of their own too; they are not exported yet.

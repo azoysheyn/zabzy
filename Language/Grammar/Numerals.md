@@ -18,8 +18,8 @@ tags: [grammar]
 | 9 | [[no]] | *no* |
 | 10 | [[rong]] | *rónix* |
 | 20 | [[bzang]] | *vixánix* |
-| 200 | [[mzang (numeral)]], also *mazang* | *mazánix* |
+| 400 | [[mzang (numeral)]], also *mazang* | *mazánix* |
 
 The same word [[mzang (many)]] means *many* — but in that sense it is never *mazang*.
 
-Open: the sheet gives the big number as *two hundred/400*; 400 would be 20 × 20.
+400 is 20 × 20. Figma and the sheet say *two hundred*; that is outdated.

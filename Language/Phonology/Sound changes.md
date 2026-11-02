@@ -43,5 +43,5 @@ The Zabzy 1 inventory at each stage.
 
 ![Periods, Figma](../../images/phonology.png)
 
-The periods match the stages in [[Inventory]] only roughly: *stage 1* is about the runic
-period, *stage 2* the intermediary one.
+**To check:** how these periods map onto *stage 1* and *stage 2* in [[Inventory]]. A first
+guess — stage 1 ≈ runic, stage 2 ≈ intermediary — is not confirmed.
