@@ -1,0 +1,16 @@
+---
+type: script
+tags: [script]
+---
+
+# Handwriting
+
+The cursive of [[Zabzy 1]] — the *writing* column of the Figma lexicon and the
+*Handwriting Letters* component. Not a font yet.
+
+In the conjugation tables the verb endings are marked in red, in both scripts.
+
+![Verb conjugation in print and handwriting, Figma](../images/verb-conjugation.png)
+
+The other two dialects are said to have scripts of their own, but none of them is drawn
+in the Figma file.
