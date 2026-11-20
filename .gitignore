@@ -4,3 +4,11 @@ build/
 __pycache__/
 .venv/
 font/build/
+
+# Not language content: tooling and Obsidian settings stay local
+tools/
+tests/
+docs/
+.obsidian/
+Meta/
+CLAUDE.md
