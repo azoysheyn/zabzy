@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zabzy Hand kerning</title>
+<style>
+@font-face { font-family: "Zabzy Hand Table"; src: url(data:font/woff2;base64,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) format("woff2"); }
+:root {
+  --bg: #f4f3ef; --paper: #fffefb; --ink: #1d1c1a; --muted: #8a877f; --line: #e3e0d8;
+  --rule: #8a877f; --after: #2f6fb3; --pair: #2e8a4f; --figma: #c46a12; --mark: #c23b3b; --max: #7b4bb3;
+  --sel: #1d1c1a; --hover: #f1eee6; --edit: #fff3c4;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #171716; --paper: #1f1f1d; --ink: #ecebe6; --muted: #8f8c84; --line: #2f2e2b;
+    --rule: #8f8c84; --after: #6ea6e6; --pair: #5cc07f; --figma: #e59a4a; --mark: #ec6b6b; --max: #b08ae6;
+    --sel: #ecebe6; --hover: #282826; --edit: #3b3520;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+header { padding: 20px 16px 8px; max-width: 1100px; }
+h1 { font-size: 20px; margin: 0 0 4px; font-weight: 600; }
+p { margin: 4px 0; color: var(--muted); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; padding: 8px 16px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.try { padding: 8px 16px 12px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.try input { font: inherit; padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px;
+  background: var(--paper); color: var(--ink); width: min(360px, 100%); }
+.try .sample { font-family: "Zabzy Hand Table"; font-size: 40px; line-height: 1.6; }
+.wrap { overflow: auto; margin: 0 16px 140px; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--paper); max-height: calc(100vh - 230px); }
+table { border-collapse: collapse; }
+th { position: sticky; background: var(--paper); color: var(--muted); font-weight: 500; z-index: 1; }
+thead th { top: 0; padding: 6px 4px; border-bottom: 1px solid var(--line); }
+tbody th { left: 0; padding: 0 10px; border-right: 1px solid var(--line); text-align: right; }
+thead th:first-child { left: 0; z-index: 2; font-size: 11px; }
+td { width: 92px; min-width: 92px; height: 92px; padding: 0; border: 1px solid var(--line);
+  text-align: center; vertical-align: top; cursor: pointer; position: relative; }
+td:hover { background: var(--hover); }
+td.edited { background: var(--edit); }
+td.sel { outline: 2px solid var(--sel); outline-offset: -2px; }
+td.hl, th.hl { color: var(--ink); }
+.pair { font-family: "Zabzy Hand Table"; font-size: 32px; line-height: 1; white-space: nowrap;
+  font-kerning: none; padding-top: 18px; height: 64px; }
+.pair span { display: inline-block; }
+.num { font-size: 11px; font-variant-numeric: tabular-nums; }
+.delta { font-weight: 600; color: var(--ink); }
+.bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--paper); border-top: 1px solid var(--line);
+  padding: 10px 16px; display: grid; gap: 8px 12px; align-items: center;
+  grid-template-columns: 180px 300px auto 1fr auto; }
+/* fixed sizes: the buttons must not move while a pair is adjusted */
+.bar .big { font-family: "Zabzy Hand Table"; font-size: 44px; line-height: 1; height: 60px; width: 180px;
+  overflow: hidden; white-space: nowrap; font-kerning: none; padding-top: 8px; }
+.bar .big span { display: inline-block; }
+.bar .info { width: 300px; height: 2.8em; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+  font-variant-numeric: tabular-nums; }
+.bar .tools, .bar .global { display: flex; gap: 8px; align-items: center; }
+.bar .tools button { width: 96px; }
+.bar .tools #reset { width: auto; }
+.bar .count { min-width: 80px; text-align: right; font-variant-numeric: tabular-nums; }
+@media (max-width: 1000px) {
+  .bar { grid-template-columns: 140px 1fr; }
+  .bar .big { width: 140px; }
+  .bar .info { width: auto; }
+  .bar .tools, .bar .global { grid-column: 1 / -1; }
+  .bar .spacer, .bar .keys { display: none; }
+}
+button { font: inherit; padding: 6px 12px; border-radius: 6px; border: 1px solid var(--line);
+  background: var(--bg); color: var(--ink); cursor: pointer; }
+button:hover { border-color: var(--muted); }
+button.primary { min-width: 170px;  background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.keys { color: var(--muted); font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Zabzy Hand — кернинг всех пар</h1>
+  <p>Строка — левая буква, столбец — правая. Число — кернинг в единицах шрифта (1000 на кегль). Минус — ближе.</p>
+  <p>Кернинг идёт по буквам: одна клетка работает для всех вариантов со знаком гласной (da = do = d).</p>
+</header>
+<div class="legend" id="legend"></div>
+<div class="try">
+  <input id="tryText" value="mazmazang kifuranrug ma daz kir kutnu zabzy" aria-label="Пробный текст">
+  <div class="sample" id="trySample"></div>
+</div>
+<div class="wrap"><table id="grid"></table></div>
+<div class="bar">
+  <div class="big" id="selPair"></div>
+  <div class="info" id="selInfo">Выберите пару в таблице.</div>
+  <div class="tools">
+    <button id="closer">← ближе</button>
+    <button id="further">дальше →</button>
+    <button id="reset">Сбросить пару</button>
+  </div>
+  <span class="keys spacer">Стрелки — выбор пары, − и + — сдвиг на 10 единиц</span>
+  <div class="global">
+    <span class="count" id="count"></span>
+    <button id="clear">Сбросить всё</button>
+    <button class="primary" id="copy">Скопировать правки</button>
+  </div>
+</div>
+<script>
+const LETTERS = [{"glyph": "hz_m", "label": "m", "left": "m'", "right": "m"}, {"glyph": "hz_f", "label": "f", "left": "f'", "right": "f"}, {"glyph": "hz_bz", "label": "bz", "left": "bz'", "right": "bz"}, {"glyph": "hz_ps", "label": "ps", "left": "ps'", "right": "ps"}, {"glyph": "hz_z", "label": "z", "left": "z'", "right": "z"}, {"glyph": "hz_s", "label": "s", "left": "s'", "right": "s"}, {"glyph": "hz_r", "label": "r", "left": "r'", "right": "r"}, {"glyph": "hz_d", "label": "d", "left": "d'", "right": "d"}, {"glyph": "hz_t", "label": "t", "left": "t'", "right": "t"}, {"glyph": "hz_n", "label": "n", "left": "n'", "right": "n"}, {"glyph": "hz_g", "label": "g", "left": "g'", "right": "g"}, {"glyph": "hz_k", "label": "k", "left": "k'", "right": "k"}, {"glyph": "hz_ng", "label": "ng", "left": "ng'", "right": "ng"}, {"glyph": "hz_u", "label": "u", "left": "u'", "right": "u"}, {"glyph": "hz_i", "label": "i", "left": "i'", "right": "i"}, {"glyph": "hz_y", "label": "y", "left": "y'", "right": "y"}, {"glyph": "hz_zero", "label": "zero", "left": "", "right": ""}];
+const PAIRS = [{"left": "hz_m", "right": "hz_m", "kern": -8, "source": "manual", "opened": 0, "gap": 78}, {"left": "hz_m", "right": "hz_f", "kern": 18, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_m", "right": "hz_bz", "kern": -160, "source": "manual", "opened": 0, "gap": 238}, {"left": "hz_m", "right": "hz_ps", "kern": 7, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_m", "right": "hz_z", "kern": -22, "source": "manual", "opened": 0, "gap": 89}, {"left": "hz_m", "right": "hz_s", "kern": -26, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_m", "right": "hz_r", "kern": -59, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_m", "right": "hz_d", "kern": 0, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_m", "right": "hz_t", "kern": 2, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_m", "right": "hz_n", "kern": -10, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_m", "right": "hz_g", "kern": 11, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_m", "right": "hz_k", "kern": -43, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_m", "right": "hz_ng", "kern": -1, "source": "manual", "opened": 0, "gap": 108}, {"left": "hz_m", "right": "hz_u", "kern": 14, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_m", "right": "hz_i", "kern": -3, "source": "manual", "opened": 0, "gap": 118}, {"left": "hz_m", "right": "hz_y", "kern": 27, "source": "manual", "opened": 0, "gap": 108}, {"left": "hz_m", "right": "hz_zero", "kern": 23, "source": "manual", "opened": 0, "gap": 108}, {"left": "hz_f", "right": "hz_m", "kern": 6, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_f", "right": "hz_f", "kern": 9, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_f", "right": "hz_bz", "kern": -170, "source": "manual", "opened": 0, "gap": 315}, {"left": "hz_f", "right": "hz_ps", "kern": 14, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_f", "right": "hz_z", "kern": -12, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_f", "right": "hz_s", "kern": -25, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_f", "right": "hz_r", "kern": -53, "source": "manual", "opened": 0, "gap": 148}, {"left": "hz_f", "right": "hz_d", "kern": 15, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_f", "right": "hz_t", "kern": -14, "source": "manual", "opened": 0, "gap": 68}, {"left": "hz_f", "right": "hz_n", "kern": 1, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_f", "right": "hz_g", "kern": 16, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_f", "right": "hz_k", "kern": -30, "source": "manual", "opened": 0, "gap": 108}, {"left": "hz_f", "right": "hz_ng", "kern": 2, "source": "manual", "opened": 0, "gap": 108}, {"left": "hz_f", "right": "hz_u", "kern": 13, "source": "manual", "opened": 0, "gap": 93}, {"left": "hz_f", "right": "hz_i", "kern": -17, "source": "manual", "opened": 0, "gap": 118}, {"left": "hz_f", "right": "hz_y", "kern": 9, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_f", "right": "hz_zero", "kern": -3, "source": "manual", "opened": 0, "gap": 78}, {"left": "hz_bz", "right": "hz_m", "kern": 8, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_bz", "right": "hz_f", "kern": 9, "source": "manual", "opened": 0, "gap": 108}, {"left": "hz_bz", "right": "hz_bz", "kern": -170, "source": "manual", "opened": 0, "gap": 323}, {"left": "hz_bz", "right": "hz_ps", "kern": 9, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_bz", "right": "hz_z", "kern": -9, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_bz", "right": "hz_s", "kern": -2, "source": "manual", "opened": 0, "gap": 108}, {"left": "hz_bz", "right": "hz_r", "kern": -38, "source": "manual", "opened": 0, "gap": 108}, {"left": "hz_bz", "right": "hz_d", "kern": -12, "source": "manual", "opened": 0, "gap": 68}, {"left": "hz_bz", "right": "hz_t", "kern": -23, "source": "manual", "opened": 0, "gap": 58}, {"left": "hz_bz", "right": "hz_n", "kern": 4, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_bz", "right": "hz_g", "kern": 6, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_bz", "right": "hz_k", "kern": -19, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_bz", "right": "hz_ng", "kern": 1, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_bz", "right": "hz_u", "kern": 2, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_bz", "right": "hz_i", "kern": -18, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_bz", "right": "hz_y", "kern": -1, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_bz", "right": "hz_zero", "kern": -2, "source": "manual", "opened": 0, "gap": 78}, {"left": "hz_ps", "right": "hz_m", "kern": 7, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_ps", "right": "hz_f", "kern": 17, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_ps", "right": "hz_bz", "kern": -160, "source": "manual", "opened": 0, "gap": 299}, {"left": "hz_ps", "right": "hz_ps", "kern": 17, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_ps", "right": "hz_z", "kern": -25, "source": "manual", "opened": 0, "gap": 108}, {"left": "hz_ps", "right": "hz_s", "kern": -26, "source": "manual", "opened": 0, "gap": 118}, {"left": "hz_ps", "right": "hz_r", "kern": -100, "source": "manual", "opened": 0, "gap": 371}, {"left": "hz_ps", "right": "hz_d", "kern": -4, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_ps", "right": "hz_t", "kern": -33, "source": "manual", "opened": 0, "gap": 58}, {"left": "hz_ps", "right": "hz_n", "kern": -38, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_ps", "right": "hz_g", "kern": -17, "source": "manual", "opened": 0, "gap": 78}, {"left": "hz_ps", "right": "hz_k", "kern": -50, "source": "manual", "opened": 0, "gap": 138}, {"left": "hz_ps", "right": "hz_ng", "kern": -21, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_ps", "right": "hz_u", "kern": 11, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_ps", "right": "hz_i", "kern": -12, "source": "manual", "opened": 0, "gap": 208}, {"left": "hz_ps", "right": "hz_y", "kern": 16, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_ps", "right": "hz_zero", "kern": 1, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_z", "right": "hz_m", "kern": -2, "source": "manual", "opened": 0, "gap": 87}, {"left": "hz_z", "right": "hz_f", "kern": -36, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_z", "right": "hz_bz", "kern": -200, "source": "manual", "opened": 0, "gap": 358}, {"left": "hz_z", "right": "hz_ps", "kern": -10, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_z", "right": "hz_z", "kern": 6, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_z", "right": "hz_s", "kern": -2, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_z", "right": "hz_r", "kern": -7, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_z", "right": "hz_d", "kern": -9, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_z", "right": "hz_t", "kern": -37, "source": "manual", "opened": 0, "gap": 68}, {"left": "hz_z", "right": "hz_n", "kern": -27, "source": "manual", "opened": 0, "gap": 68}, {"left": "hz_z", "right": "hz_g", "kern": -53, "source": "manual", "opened": 0, "gap": 68}, {"left": "hz_z", "right": "hz_k", "kern": -10, "source": "manual", "opened": 0, "gap": 78}, {"left": "hz_z", "right": "hz_ng", "kern": -4, "source": "manual", "opened": 0, "gap": 80}, {"left": "hz_z", "right": "hz_u", "kern": -62, "source": "manual", "opened": 0, "gap": 78}, {"left": "hz_z", "right": "hz_i", "kern": -17, "source": "manual", "opened": 0, "gap": 68}, {"left": "hz_z", "right": "hz_y", "kern": -30, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_z", "right": "hz_zero", "kern": -12, "source": "manual", "opened": 0, "gap": 78}, {"left": "hz_s", "right": "hz_m", "kern": -68, "source": "manual", "opened": 0, "gap": 108}, {"left": "hz_s", "right": "hz_f", "kern": 0, "source": "manual", "opened": 0, "gap": 128}, {"left": "hz_s", "right": "hz_bz", "kern": 28, "source": "manual", "opened": 0, "gap": 108}, {"left": "hz_s", "right": "hz_ps", "kern": -10, "source": "manual", "opened": 0, "gap": 118}, {"left": "hz_s", "right": "hz_z", "kern": -130, "source": "manual", "opened": 0, "gap": 129}, {"left": "hz_s", "right": "hz_s", "kern": -150, "source": "manual", "opened": 0, "gap": 117}, {"left": "hz_s", "right": "hz_r", "kern": -160, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_s", "right": "hz_d", "kern": -42, "source": "manual", "opened": 0, "gap": 118}, {"left": "hz_s", "right": "hz_t", "kern": -86, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_s", "right": "hz_n", "kern": -160, "source": "manual", "opened": 0, "gap": 142}, {"left": "hz_s", "right": "hz_g", "kern": -72, "source": "manual", "opened": 0, "gap": 148}, {"left": "hz_s", "right": "hz_k", "kern": -180, "source": "manual", "opened": 0, "gap": 381}, {"left": "hz_s", "right": "hz_ng", "kern": -90, "source": "manual", "opened": 0, "gap": 118}, {"left": "hz_s", "right": "hz_u", "kern": -45, "source": "manual", "opened": 0, "gap": 128}, {"left": "hz_s", "right": "hz_i", "kern": 48, "source": "manual", "opened": 0, "gap": 128}, {"left": "hz_s", "right": "hz_y", "kern": 19, "source": "manual", "opened": 0, "gap": 148}, {"left": "hz_s", "right": "hz_zero", "kern": -46, "source": "manual", "opened": 0, "gap": 118}, {"left": "hz_r", "right": "hz_m", "kern": 17, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_r", "right": "hz_f", "kern": 18, "source": "manual", "opened": 0, "gap": 118}, {"left": "hz_r", "right": "hz_bz", "kern": -112, "source": "manual", "opened": 0, "gap": 108}, {"left": "hz_r", "right": "hz_ps", "kern": 7, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_r", "right": "hz_z", "kern": 11, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_r", "right": "hz_s", "kern": 1, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_r", "right": "hz_r", "kern": -31, "source": "manual", "opened": 0, "gap": 78}, {"left": "hz_r", "right": "hz_d", "kern": -3, "source": "manual", "opened": 0, "gap": 78}, {"left": "hz_r", "right": "hz_t", "kern": -15, "source": "manual", "opened": 0, "gap": 68}, {"left": "hz_r", "right": "hz_n", "kern": 18, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_r", "right": "hz_g", "kern": 4, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_r", "right": "hz_k", "kern": -19, "source": "manual", "opened": 0, "gap": 78}, {"left": "hz_r", "right": "hz_ng", "kern": -1, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_r", "right": "hz_u", "kern": -14, "source": "manual", "opened": 0, "gap": 74}, {"left": "hz_r", "right": "hz_i", "kern": -1, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_r", "right": "hz_y", "kern": 7, "source": "manual", "opened": 0, "gap": 108}, {"left": "hz_r", "right": "hz_zero", "kern": 6, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_d", "right": "hz_m", "kern": 4, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_d", "right": "hz_f", "kern": -20, "source": "predicted", "opened": 0, "gap": 95}, {"left": "hz_d", "right": "hz_bz", "kern": -170, "source": "predicted", "opened": 0, "gap": 412}, {"left": "hz_d", "right": "hz_ps", "kern": -6, "source": "predicted", "opened": 0, "gap": 91}, {"left": "hz_d", "right": "hz_z", "kern": 6, "source": "predicted", "opened": 0, "gap": 92}, {"left": "hz_d", "right": "hz_s", "kern": 0, "source": "predicted", "opened": 0, "gap": 96}, {"left": "hz_d", "right": "hz_r", "kern": -12, "source": "predicted", "opened": 0, "gap": 100}, {"left": "hz_d", "right": "hz_d", "kern": 0, "source": "predicted", "opened": 0, "gap": 85}, {"left": "hz_d", "right": "hz_t", "kern": -17, "source": "predicted", "opened": 0, "gap": 72}, {"left": "hz_d", "right": "hz_n", "kern": 0, "source": "predicted", "opened": 0, "gap": 81}, {"left": "hz_d", "right": "hz_g", "kern": -6, "source": "predicted", "opened": 0, "gap": 88}, {"left": "hz_d", "right": "hz_k", "kern": -5, "source": "predicted", "opened": 0, "gap": 91}, {"left": "hz_d", "right": "hz_ng", "kern": 7, "source": "predicted", "opened": 0, "gap": 95}, {"left": "hz_d", "right": "hz_u", "kern": -15, "source": "predicted", "opened": 0, "gap": 91}, {"left": "hz_d", "right": "hz_i", "kern": 18, "source": "predicted", "opened": 0, "gap": 106}, {"left": "hz_d", "right": "hz_y", "kern": -16, "source": "predicted", "opened": 0, "gap": 97}, {"left": "hz_d", "right": "hz_zero", "kern": -7, "source": "predicted", "opened": 0, "gap": 78}, {"left": "hz_t", "right": "hz_m", "kern": 13, "source": "manual", "opened": 0, "gap": 128}, {"left": "hz_t", "right": "hz_f", "kern": 49, "source": "manual", "opened": 0, "gap": 129}, {"left": "hz_t", "right": "hz_bz", "kern": -76, "source": "manual", "opened": 0, "gap": 312}, {"left": "hz_t", "right": "hz_ps", "kern": 25, "source": "predicted", "opened": 0, "gap": 105}, {"left": "hz_t", "right": "hz_z", "kern": 6, "source": "manual", "opened": 0, "gap": 146}, {"left": "hz_t", "right": "hz_s", "kern": -7, "source": "manual", "opened": 0, "gap": 140}, {"left": "hz_t", "right": "hz_r", "kern": -34, "source": "manual", "opened": 0, "gap": 124}, {"left": "hz_t", "right": "hz_d", "kern": 22, "source": "manual", "opened": 0, "gap": 131}, {"left": "hz_t", "right": "hz_t", "kern": -31, "source": "predicted", "opened": 0, "gap": 86}, {"left": "hz_t", "right": "hz_n", "kern": -3, "source": "manual", "opened": 0, "gap": 134}, {"left": "hz_t", "right": "hz_g", "kern": 0, "source": "manual", "opened": 0, "gap": 122}, {"left": "hz_t", "right": "hz_k", "kern": -39, "source": "predicted", "opened": 0, "gap": 105}, {"left": "hz_t", "right": "hz_ng", "kern": -14, "source": "manual", "opened": 0, "gap": 129}, {"left": "hz_t", "right": "hz_u", "kern": 12, "source": "manual", "opened": 0, "gap": 125}, {"left": "hz_t", "right": "hz_i", "kern": -26, "source": "predicted", "opened": 0, "gap": 120}, {"left": "hz_t", "right": "hz_y", "kern": 31, "source": "predicted", "opened": 0, "gap": 111}, {"left": "hz_t", "right": "hz_zero", "kern": 14, "source": "manual", "opened": 0, "gap": 122}, {"left": "hz_n", "right": "hz_m", "kern": 0, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_n", "right": "hz_f", "kern": -39, "source": "predicted", "opened": 0, "gap": 95}, {"left": "hz_n", "right": "hz_bz", "kern": -170, "source": "predicted", "opened": 0, "gap": 124}, {"left": "hz_n", "right": "hz_ps", "kern": -15, "source": "predicted", "opened": 0, "gap": 91}, {"left": "hz_n", "right": "hz_z", "kern": 10, "source": "predicted", "opened": 0, "gap": 92}, {"left": "hz_n", "right": "hz_s", "kern": 5, "source": "predicted", "opened": 0, "gap": 96}, {"left": "hz_n", "right": "hz_r", "kern": -19, "source": "manual", "opened": 0, "gap": 82}, {"left": "hz_n", "right": "hz_d", "kern": -8, "source": "predicted", "opened": 0, "gap": 87}, {"left": "hz_n", "right": "hz_t", "kern": -31, "source": "predicted", "opened": 0, "gap": 72}, {"left": "hz_n", "right": "hz_n", "kern": -14, "source": "predicted", "opened": 0, "gap": 80}, {"left": "hz_n", "right": "hz_g", "kern": -43, "source": "predicted", "opened": 0, "gap": 88}, {"left": "hz_n", "right": "hz_k", "kern": 0, "source": "predicted", "opened": 0, "gap": 89}, {"left": "hz_n", "right": "hz_ng", "kern": 10, "source": "predicted", "opened": 0, "gap": 95}, {"left": "hz_n", "right": "hz_u", "kern": -70, "source": "predicted", "opened": 0, "gap": 91}, {"left": "hz_n", "right": "hz_i", "kern": 21, "source": "predicted", "opened": 0, "gap": 106}, {"left": "hz_n", "right": "hz_y", "kern": -30, "source": "predicted", "opened": 0, "gap": 97}, {"left": "hz_n", "right": "hz_zero", "kern": -11, "source": "manual", "opened": 0, "gap": 78}, {"left": "hz_g", "right": "hz_m", "kern": -190, "source": "manual", "opened": 0, "gap": 100}, {"left": "hz_g", "right": "hz_f", "kern": -200, "source": "manual", "opened": 0, "gap": 134}, {"left": "hz_g", "right": "hz_bz", "kern": -280, "source": "manual", "opened": 3, "gap": 442}, {"left": "hz_g", "right": "hz_ps", "kern": -200, "source": "manual", "opened": 0, "gap": 110}, {"left": "hz_g", "right": "hz_z", "kern": -170, "source": "manual", "opened": 0, "gap": 107}, {"left": "hz_g", "right": "hz_s", "kern": -150, "source": "manual", "opened": 0, "gap": 121}, {"left": "hz_g", "right": "hz_r", "kern": -150, "source": "manual", "opened": 0, "gap": 123}, {"left": "hz_g", "right": "hz_d", "kern": -170, "source": "manual", "opened": 0, "gap": 129}, {"left": "hz_g", "right": "hz_t", "kern": -200, "source": "manual", "opened": 0, "gap": 105}, {"left": "hz_g", "right": "hz_n", "kern": -200, "source": "manual", "opened": 0, "gap": 95}, {"left": "hz_g", "right": "hz_g", "kern": -192, "source": "manual", "opened": 6, "gap": 123}, {"left": "hz_g", "right": "hz_k", "kern": -150, "source": "manual", "opened": 0, "gap": 123}, {"left": "hz_g", "right": "hz_ng", "kern": -150, "source": "manual", "opened": 0, "gap": 121}, {"left": "hz_g", "right": "hz_u", "kern": -91, "source": "manual", "opened": 0, "gap": 68}, {"left": "hz_g", "right": "hz_i", "kern": -170, "source": "manual", "opened": 0, "gap": 116}, {"left": "hz_g", "right": "hz_y", "kern": -180, "source": "manual", "opened": 0, "gap": 149}, {"left": "hz_g", "right": "hz_zero", "kern": -161, "source": "manual", "opened": 3, "gap": 131}, {"left": "hz_k", "right": "hz_m", "kern": -130, "source": "manual", "opened": 0, "gap": 117}, {"left": "hz_k", "right": "hz_f", "kern": -119, "source": "predicted", "opened": 0, "gap": 102}, {"left": "hz_k", "right": "hz_bz", "kern": -6, "source": "predicted", "opened": 0, "gap": 75}, {"left": "hz_k", "right": "hz_ps", "kern": -123, "source": "predicted", "opened": 0, "gap": 98}, {"left": "hz_k", "right": "hz_z", "kern": -139, "source": "predicted", "opened": 0, "gap": 139}, {"left": "hz_k", "right": "hz_s", "kern": -135, "source": "predicted", "opened": 0, "gap": 155}, {"left": "hz_k", "right": "hz_r", "kern": -131, "source": "predicted", "opened": 0, "gap": 128}, {"left": "hz_k", "right": "hz_d", "kern": -144, "source": "predicted", "opened": 0, "gap": 104}, {"left": "hz_k", "right": "hz_t", "kern": -159, "source": "predicted", "opened": 0, "gap": 89}, {"left": "hz_k", "right": "hz_n", "kern": -151, "source": "predicted", "opened": 0, "gap": 113}, {"left": "hz_k", "right": "hz_g", "kern": -143, "source": "predicted", "opened": 0, "gap": 107}, {"left": "hz_k", "right": "hz_k", "kern": -140, "source": "predicted", "opened": 0, "gap": 150}, {"left": "hz_k", "right": "hz_ng", "kern": -136, "source": "predicted", "opened": 0, "gap": 139}, {"left": "hz_k", "right": "hz_u", "kern": -125, "source": "predicted", "opened": 0, "gap": 119}, {"left": "hz_k", "right": "hz_i", "kern": 37, "source": "predicted", "opened": 0, "gap": 117}, {"left": "hz_k", "right": "hz_y", "kern": -118, "source": "predicted", "opened": 0, "gap": 104}, {"left": "hz_k", "right": "hz_zero", "kern": -153, "source": "predicted", "opened": 0, "gap": 89}, {"left": "hz_ng", "right": "hz_m", "kern": -6, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_ng", "right": "hz_f", "kern": 9, "source": "predicted", "opened": 0, "gap": 95}, {"left": "hz_ng", "right": "hz_bz", "kern": -170, "source": "predicted", "opened": 0, "gap": 402}, {"left": "hz_ng", "right": "hz_ps", "kern": 9, "source": "predicted", "opened": 0, "gap": 91}, {"left": "hz_ng", "right": "hz_z", "kern": -72, "source": "predicted", "opened": 0, "gap": 92}, {"left": "hz_ng", "right": "hz_s", "kern": -75, "source": "predicted", "opened": 0, "gap": 96}, {"left": "hz_ng", "right": "hz_r", "kern": -138, "source": "predicted", "opened": 0, "gap": 215}, {"left": "hz_ng", "right": "hz_d", "kern": -6, "source": "predicted", "opened": 0, "gap": 87}, {"left": "hz_ng", "right": "hz_t", "kern": -25, "source": "predicted", "opened": 0, "gap": 72}, {"left": "hz_ng", "right": "hz_n", "kern": -136, "source": "predicted", "opened": 0, "gap": 80}, {"left": "hz_ng", "right": "hz_g", "kern": -37, "source": "predicted", "opened": 0, "gap": 88}, {"left": "hz_ng", "right": "hz_k", "kern": -147, "source": "predicted", "opened": 0, "gap": 175}, {"left": "hz_ng", "right": "hz_ng", "kern": -31, "source": "predicted", "opened": 0, "gap": 95}, {"left": "hz_ng", "right": "hz_u", "kern": 0, "source": "predicted", "opened": 0, "gap": 92}, {"left": "hz_ng", "right": "hz_i", "kern": -119, "source": "predicted", "opened": 0, "gap": 106}, {"left": "hz_ng", "right": "hz_y", "kern": 10, "source": "predicted", "opened": 0, "gap": 97}, {"left": "hz_ng", "right": "hz_zero", "kern": -10, "source": "predicted", "opened": 0, "gap": 78}, {"left": "hz_u", "right": "hz_m", "kern": 2, "source": "manual", "opened": 0, "gap": 100}, {"left": "hz_u", "right": "hz_f", "kern": 0, "source": "predicted", "opened": 0, "gap": 114}, {"left": "hz_u", "right": "hz_bz", "kern": -173, "source": "predicted", "opened": 0, "gap": 314}, {"left": "hz_u", "right": "hz_ps", "kern": 5, "source": "predicted", "opened": 0, "gap": 110}, {"left": "hz_u", "right": "hz_z", "kern": -5, "source": "predicted", "opened": 0, "gap": 111}, {"left": "hz_u", "right": "hz_s", "kern": -13, "source": "predicted", "opened": 0, "gap": 115}, {"left": "hz_u", "right": "hz_r", "kern": -32, "source": "predicted", "opened": 0, "gap": 119}, {"left": "hz_u", "right": "hz_d", "kern": 7, "source": "predicted", "opened": 0, "gap": 106}, {"left": "hz_u", "right": "hz_t", "kern": -32, "source": "manual", "opened": 0, "gap": 66}, {"left": "hz_u", "right": "hz_n", "kern": 0, "source": "predicted", "opened": 0, "gap": 103}, {"left": "hz_u", "right": "hz_g", "kern": -11, "source": "manual", "opened": 0, "gap": 87}, {"left": "hz_u", "right": "hz_k", "kern": -3, "source": "manual", "opened": 0, "gap": 130}, {"left": "hz_u", "right": "hz_ng", "kern": 0, "source": "predicted", "opened": 0, "gap": 115}, {"left": "hz_u", "right": "hz_u", "kern": 9, "source": "predicted", "opened": 0, "gap": 110}, {"left": "hz_u", "right": "hz_i", "kern": 0, "source": "predicted", "opened": 0, "gap": 123}, {"left": "hz_u", "right": "hz_y", "kern": 0, "source": "predicted", "opened": 0, "gap": 114}, {"left": "hz_u", "right": "hz_zero", "kern": 0, "source": "predicted", "opened": 0, "gap": 98}, {"left": "hz_i", "right": "hz_m", "kern": 25, "source": "manual", "opened": 0, "gap": 108}, {"left": "hz_i", "right": "hz_f", "kern": 40, "source": "predicted", "opened": 0, "gap": 140}, {"left": "hz_i", "right": "hz_bz", "kern": -57, "source": "manual", "opened": 0, "gap": 105}, {"left": "hz_i", "right": "hz_ps", "kern": 0, "source": "predicted", "opened": 0, "gap": 94}, {"left": "hz_i", "right": "hz_z", "kern": 16, "source": "predicted", "opened": 0, "gap": 99}, {"left": "hz_i", "right": "hz_s", "kern": 12, "source": "predicted", "opened": 0, "gap": 103}, {"left": "hz_i", "right": "hz_r", "kern": 12, "source": "predicted", "opened": 0, "gap": 107}, {"left": "hz_i", "right": "hz_d", "kern": 11, "source": "predicted", "opened": 0, "gap": 94}, {"left": "hz_i", "right": "hz_t", "kern": -6, "source": "predicted", "opened": 0, "gap": 79}, {"left": "hz_i", "right": "hz_n", "kern": 7, "source": "predicted", "opened": 0, "gap": 87}, {"left": "hz_i", "right": "hz_g", "kern": 8, "source": "predicted", "opened": 0, "gap": 95}, {"left": "hz_i", "right": "hz_k", "kern": 9, "source": "predicted", "opened": 0, "gap": 98}, {"left": "hz_i", "right": "hz_ng", "kern": 16, "source": "predicted", "opened": 0, "gap": 102}, {"left": "hz_i", "right": "hz_u", "kern": 8, "source": "predicted", "opened": 0, "gap": 98}, {"left": "hz_i", "right": "hz_i", "kern": 28, "source": "predicted", "opened": 0, "gap": 113}, {"left": "hz_i", "right": "hz_y", "kern": 0, "source": "predicted", "opened": 0, "gap": 101}, {"left": "hz_i", "right": "hz_zero", "kern": 20, "source": "manual", "opened": 0, "gap": 104}, {"left": "hz_y", "right": "hz_m", "kern": 15, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_y", "right": "hz_f", "kern": -5, "source": "predicted", "opened": 0, "gap": 99}, {"left": "hz_y", "right": "hz_bz", "kern": -166, "source": "predicted", "opened": 0, "gap": 395}, {"left": "hz_y", "right": "hz_ps", "kern": 0, "source": "predicted", "opened": 0, "gap": 94}, {"left": "hz_y", "right": "hz_z", "kern": 12, "source": "predicted", "opened": 0, "gap": 96}, {"left": "hz_y", "right": "hz_s", "kern": 7, "source": "predicted", "opened": 0, "gap": 100}, {"left": "hz_y", "right": "hz_r", "kern": 5, "source": "predicted", "opened": 0, "gap": 104}, {"left": "hz_y", "right": "hz_d", "kern": 7, "source": "predicted", "opened": 0, "gap": 91}, {"left": "hz_y", "right": "hz_t", "kern": -10, "source": "predicted", "opened": 0, "gap": 76}, {"left": "hz_y", "right": "hz_n", "kern": 0, "source": "predicted", "opened": 0, "gap": 81}, {"left": "hz_y", "right": "hz_g", "kern": 5, "source": "predicted", "opened": 0, "gap": 92}, {"left": "hz_y", "right": "hz_k", "kern": 0, "source": "predicted", "opened": 0, "gap": 92}, {"left": "hz_y", "right": "hz_ng", "kern": 12, "source": "predicted", "opened": 0, "gap": 99}, {"left": "hz_y", "right": "hz_u", "kern": 0, "source": "predicted", "opened": 0, "gap": 91}, {"left": "hz_y", "right": "hz_i", "kern": 23, "source": "predicted", "opened": 0, "gap": 110}, {"left": "hz_y", "right": "hz_y", "kern": 0, "source": "predicted", "opened": 0, "gap": 104}, {"left": "hz_y", "right": "hz_zero", "kern": 0, "source": "predicted", "opened": 0, "gap": 84}, {"left": "hz_zero", "right": "hz_m", "kern": -2, "source": "manual", "opened": 0, "gap": 98}, {"left": "hz_zero", "right": "hz_f", "kern": -56, "source": "manual", "opened": 0, "gap": 88}, {"left": "hz_zero", "right": "hz_bz", "kern": -169, "source": "predicted", "opened": 0, "gap": 356}, {"left": "hz_zero", "right": "hz_ps", "kern": -30, "source": "predicted", "opened": 0, "gap": 92}, {"left": "hz_zero", "right": "hz_z", "kern": 0, "source": "predicted", "opened": 0, "gap": 89}, {"left": "hz_zero", "right": "hz_s", "kern": 17, "source": "predicted", "opened": 0, "gap": 97}, {"left": "hz_zero", "right": "hz_r", "kern": 17, "source": "predicted", "opened": 0, "gap": 101}, {"left": "hz_zero", "right": "hz_d", "kern": -22, "source": "predicted", "opened": 0, "gap": 88}, {"left": "hz_zero", "right": "hz_t", "kern": -43, "source": "predicted", "opened": 0, "gap": 73}, {"left": "hz_zero", "right": "hz_n", "kern": -25, "source": "predicted", "opened": 0, "gap": 81}, {"left": "hz_zero", "right": "hz_g", "kern": -35, "source": "predicted", "opened": 0, "gap": 89}, {"left": "hz_zero", "right": "hz_k", "kern": 9, "source": "predicted", "opened": 0, "gap": 92}, {"left": "hz_zero", "right": "hz_ng", "kern": 16, "source": "predicted", "opened": 0, "gap": 96}, {"left": "hz_zero", "right": "hz_u", "kern": -43, "source": "predicted", "opened": 0, "gap": 92}, {"left": "hz_zero", "right": "hz_i", "kern": 9, "source": "predicted", "opened": 0, "gap": 107}, {"left": "hz_zero", "right": "hz_y", "kern": -42, "source": "predicted", "opened": 0, "gap": 98}, {"left": "hz_zero", "right": "hz_zero", "kern": -25, "source": "predicted", "opened": 0, "gap": 79}];
+const STEP = 10;
+const STORE = "zabzy-hand-kern-edits-01af9e99be";   // edits belong to one build of the font
+const SOURCES = {
+  manual:    ["твоя правка", "--figma"],
+  predicted: ["правило + сдвиг, выведенный из твоих правок", "--rule"],
+};
+const MARK_NOTE = "* — варианты со знаком гласной раздвинуты, голые буквы — как в клетке";
+const byKey = {};
+for (const p of PAIRS) byKey[p.left + "|" + p.right] = p;
+const index = {};
+LETTERS.forEach((l, i) => index[l.glyph] = i);
+
+let edits = {};
+try { edits = JSON.parse(localStorage.getItem(STORE) || "{}"); } catch (e) { edits = {}; }
+function save() { try { localStorage.setItem(STORE, JSON.stringify(edits)); } catch (e) {} }
+
+const legend = document.getElementById("legend");
+for (const [k, [label, color]] of Object.entries(SOURCES)) {
+  const s = document.createElement("span");
+  s.innerHTML = `<i class="dot" style="background:var(${color})"></i>${label}`;
+  legend.appendChild(s);
+}
+{ const s = document.createElement("span"); s.textContent = MARK_NOTE; legend.appendChild(s); }
+
+function pairHTML(a, b, kern) {
+  const em = kern / 1000;
+  return `<span>${esc(a.left)}</span><span style="margin-left:${em}em">${esc(b.right)}</span>`;
+}
+function esc(s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+function fmt(n) { return (n > 0 ? "+" : n < 0 ? "−" : "") + Math.abs(n); }
+
+const grid = document.getElementById("grid");
+let html = "<thead><tr><th>лев. \\ пр.</th>";
+for (const b of LETTERS) html += `<th data-col="${b.glyph}">${b.label}</th>`;
+html += "</tr></thead><tbody>";
+for (const a of LETTERS) {
+  html += `<tr><th data-row="${a.glyph}">${a.label}</th>`;
+  for (const b of LETTERS) html += `<td data-l="${a.glyph}" data-r="${b.glyph}"></td>`;
+  html += "</tr>";
+}
+grid.innerHTML = html + "</tbody>";
+
+function info(l, r) {
+  const p = byKey[l + "|" + r] || { kern: 0, source: "predicted", gap: null };
+  const d = edits[l + "|" + r] || 0;
+  return { p, d, kern: p.kern + d };
+}
+function draw(td) {
+  const l = td.dataset.l, r = td.dataset.r;
+  const { p, d, kern } = info(l, r);
+  const color = SOURCES[p.source] ? SOURCES[p.source][1] : "--rule";
+  td.classList.toggle("edited", d !== 0);
+  td.innerHTML = `<div class="pair">${pairHTML(LETTERS[index[l]], LETTERS[index[r]], kern)}</div>` +
+    `<div class="num" style="color:var(${color})">${fmt(p.kern)}${p.opened ? "*" : ""}` +
+    (d ? ` <span class="delta">${fmt(d)}</span>` : "") + `</div>`;
+}
+grid.querySelectorAll("td").forEach(draw);
+
+let sel = null;
+function select(td) {
+  if (sel) sel.classList.remove("sel");
+  grid.querySelectorAll(".hl").forEach(e => e.classList.remove("hl"));
+  sel = td;
+  if (!td) return;
+  td.classList.add("sel");
+  grid.querySelector(`th[data-row="${td.dataset.l}"]`).classList.add("hl");
+  grid.querySelector(`th[data-col="${td.dataset.r}"]`).classList.add("hl");
+  td.scrollIntoView({ block: "nearest", inline: "nearest" });
+  showSel();
+}
+function showSel() {
+  if (!sel) return;
+  const l = sel.dataset.l, r = sel.dataset.r;
+  const a = LETTERS[index[l]], b = LETTERS[index[r]];
+  const { p, d, kern } = info(l, r);
+  document.getElementById("selPair").innerHTML = pairHTML(a, b, kern);
+  const src = SOURCES[p.source] ? SOURCES[p.source][0] : p.source;
+  const gap = p.gap == null ? "" : ` · зазор ${p.gap + d}`;
+  document.getElementById("selInfo").innerHTML =
+    `<b>${a.label} → ${b.label}</b> · кернинг ${fmt(kern)}${d ? ` (было ${fmt(p.kern)})` : ""}${gap}<br>` +
+    `<span style="color:var(--muted)">${src}${p.opened ? ` · со знаком раздвинуто вариантов: ${p.opened}` : ""}</span>`;
+}
+function adjust(delta) {
+  if (!sel) return;
+  const key = sel.dataset.l + "|" + sel.dataset.r;
+  const v = (edits[key] || 0) + delta;
+  if (v) edits[key] = v; else delete edits[key];
+  save(); draw(sel); showSel(); count();
+}
+function count() {
+  const n = Object.keys(edits).length;
+  document.getElementById("count").textContent = n ? `Правок: ${n}` : "";
+}
+count();
+
+grid.addEventListener("click", e => { const td = e.target.closest("td"); if (td) select(td); });
+document.getElementById("closer").onclick = () => adjust(-STEP);
+document.getElementById("further").onclick = () => adjust(STEP);
+document.getElementById("reset").onclick = () => { if (sel) adjust(-(edits[sel.dataset.l + "|" + sel.dataset.r] || 0)); };
+document.getElementById("clear").onclick = () => {
+  if (!Object.keys(edits).length || !confirm("Сбросить все правки?")) return;
+  edits = {}; save(); grid.querySelectorAll("td").forEach(draw); showSel(); count();
+};
+document.getElementById("copy").onclick = async () => {
+  const lines = Object.entries(edits).map(([k, d]) => {
+    const [l, r] = k.split("|");
+    const p = byKey[k] || { kern: 0 };
+    return `${LETTERS[index[l]].label} → ${LETTERS[index[r]].label}: ${fmt(d)} (${d < 0 ? "ближе" : "дальше"}), кернинг ${fmt(p.kern)} → ${fmt(p.kern + d)}`;
+  });
+  const text = lines.length ? "Zabzy Hand, правки кернинга:\n" + lines.join("\n") : "Правок нет.";
+  try { await navigator.clipboard.writeText(text); flash("Скопировано"); }
+  catch (e) { prompt("Скопируйте:", text); }
+};
+function flash(t) {
+  const b = document.getElementById("copy"), old = b.textContent;
+  b.textContent = t; setTimeout(() => b.textContent = old, 1200);
+}
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT") return;
+  if (e.key === "-" || e.key === "_") { adjust(-STEP); e.preventDefault(); return; }
+  if (e.key === "+" || e.key === "=") { adjust(STEP); e.preventDefault(); return; }
+  const mv = { ArrowLeft: [0, -1], ArrowRight: [0, 1], ArrowUp: [-1, 0], ArrowDown: [1, 0] }[e.key];
+  if (!mv) return;
+  e.preventDefault();
+  let i = sel ? index[sel.dataset.l] : 0, j = sel ? index[sel.dataset.r] : 0;
+  if (sel) { i = Math.max(0, Math.min(LETTERS.length - 1, i + mv[0])); j = Math.max(0, Math.min(LETTERS.length - 1, j + mv[1])); }
+  select(grid.querySelector(`td[data-l="${LETTERS[i].glyph}"][data-r="${LETTERS[j].glyph}"]`));
+});
+
+const tryText = document.getElementById("tryText"), trySample = document.getElementById("trySample");
+function trySet() { trySample.textContent = tryText.value; }
+tryText.addEventListener("input", trySet); trySet();
+</script>
+</body>
+</html>

@@ -21,6 +21,7 @@ and the main dialect has a written history of its own, from runes to a literary 
 | `Corpus/` | Texts: *The wise elder*, *The song of the birds*, *The desert* (in progress) |
 | `Drafts/` | Not a source of truth |
 | `font/` | **Zabzy Bold**, the printed script as an installable font |
+| `font-hand/` | **Zabzy Hand**, the handwriting as an installable font, with its kerning table |
 | `images/` | Boards from Figma |
 
 Start with [Verbs](Language/Grammar/Verbs.md) and [Sound changes](Language/Phonology/Sound%20changes.md).

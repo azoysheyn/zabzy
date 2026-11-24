@@ -6,7 +6,8 @@ tags: [script]
 # Handwriting
 
 The cursive of [[Zabzy 1]] — the *writing* column of the Figma lexicon and the
-*Handwriting Letters* component. Not a font yet.
+*Handwriting Letters* component. Installable as the font **Zabzy Hand**:
+`font-hand/dist/`. Type Latin, get the handwriting.
 
 In the conjugation tables the verb endings are marked in red, in both scripts.
 
