@@ -10,4 +10,6 @@ status: ok
 tags: [lexeme]
 ---
 
+A particle, not a case ending. It marks the direct object. Gloss: `OBJ`.
+
 *Did what?* in the sheet.

@@ -17,4 +17,7 @@ An adjective is a noun plus the marker [[nu (adjective)]]: [[kir]] *wisdom* → 
 Zabzy 2 puts a linking vowel before *-nu*. Zabzy 3 has merged adjectives with nouns:
 *jel* is both *wisdom* and *wise*.
 
+Two adjectives can form a fixed pair. The first one drops *-nu*: *kir-kutnu* *wise-old*,
+from [[kirnu]] + [[kutnu]].
+
 Adverbs are marked with [[my]].

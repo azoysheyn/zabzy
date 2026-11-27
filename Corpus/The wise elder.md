@@ -26,6 +26,28 @@ Each line: English, a word-for-word gloss, the proto-language, Zabzy 1.
 - *xuvun latúnelú ta sávizínelú líxetú ma dázi.*
 - **kuvun ratunta sabzynru ryktu ma daz.**
 
+## Leipzig gloss
+
+Lexicalized words get one gloss: *kutnu* `old`, *rapso* `story`. Person, tense and the causative are split.
+Nouns do not mark number. The future *ratunta … ryktu* is glossed word by word, because it is not settled.
+
+```
+mazmazang  kifuran-rug    ma  daz:  kir-kutnu  zabzy
+everyone   respect-3.PST  to  3     wise-old   person
+
+rafyn-rug         ko   kutnu  rapso  ma  vakynu  zabzy
+tell.story-3.PST  OBJ  old    story  to  young   person
+
+kuvun  ratun-ta  sa-bzyn-ru       ryktu  ma  daz.
+and    go-ALL    CAUS-see-3.NPST  later  to  3
+```
+
+Abbreviations: `3` third person, `PST` past, `NPST` non-past, `OBJ` object marker,
+`CAUS` causative, `ALL` allative (motion towards).
+
+Line 1: the speaker first shows the person, then describes him, as in sign languages.
+The colon marks that turn. *ma daz* is the one who is respected.
+
 Words: [[mzang (many)]], [[kifurang]], [[ma]], [[daz]], [[kirnu]], [[kutnu]], [[zabzy]],
 [[rafyng]], [[ko]], [[rapso]], [[vakynu]], [[kuvun]], [[ratung]], [[-ta]], [[sabzyng]],
 [[ryktu]]. Future construction: [[Verbs]].
